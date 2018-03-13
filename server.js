@@ -10,8 +10,7 @@ const PORT = process.env.PORT || 3001;
 //Initiate Express
 const app = express();
 // Linking up Casey Harding
-
-//**************** I THINK THAT THIS IS WORKING ***********************
+//CASEY HARDING IS LINKED AND READY TO CODE!
 const mainRouter = require(`./routes/mainRouters/mainRouter`);
 const userRouter = require(`./routes/usersRouters/userRouter`);
 
