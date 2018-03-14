@@ -5,7 +5,7 @@ const db = require(`../../config/connection`)
 
 module.exports = {
   getAll(){
-    console.log(`Inside the getAll function on the mainDB model`);
+    return db.many(`SELECT * FROM test_table`)
   },
   makeOne(){
     console.log(`Inside the makeOne function on the mainDB model`);

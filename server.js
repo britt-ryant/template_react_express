@@ -24,7 +24,7 @@ app.set(`views`, path.join(__dirname, `views`));
 app.set(`view engine`, `ejs`);
 
 //******** testing that routes and controllers work ************
-app.use(`/testmain`, mainRouter);
+app.use(`/api/testmain`, mainRouter);
 app.use(`/testusers`, userRouter);
 //******** testing that routes and controllers work ************
 
